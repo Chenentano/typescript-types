@@ -6,6 +6,7 @@ interface Student {
 }
 
 function printStudent(student: Student): void {
+    console.log(`${student.firstName} ${student.lastName} (${student.age})`);
     console.log("=".repeat(30));
     console.log("Noten:");
     console.log(student.grades.map(grade => {
