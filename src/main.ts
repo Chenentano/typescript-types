@@ -17,9 +17,6 @@ function printStudent(student: Student): void {
     }
     }).join(","));
     console.log("\n");
-
-
-    console.log("\n");
 }
 
 function printAllStudents(students: Student[]): void {
